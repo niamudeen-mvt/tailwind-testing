@@ -4,18 +4,18 @@ import Testimonials from "../view/pages/Testimonials";
 
 export const menuItems = [
   {
-    id: 'home',
-    path: '/',
-    element: <Homepage />
+    id: "features",
+    path: "#features-section",
+    element: <Features />,
   },
   {
-    id: 'features',
-    path: '/features',
-    element: <Features />
+    id: "testimonial",
+    path: "#testimonial-section",
+    element: <Testimonials />,
   },
   {
-    id: 'testimonial',
-    path: '/testimonial',
-    element: <Testimonials />
+    id: "pricing",
+    path: "#price-section",
+    element: <Homepage />,
   },
-]
+];
